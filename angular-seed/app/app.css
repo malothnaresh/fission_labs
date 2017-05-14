@@ -1,0 +1,52 @@
+html, body{
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.menu {
+  padding: 20px;
+  background-color: #555;
+}
+
+.logo-container{
+  padding-left: 20px;
+}
+
+.view-container{
+  min-height: 80%;
+  background-color: rgba(158, 158, 158, 0.57);
+}
+
+.view-inner-container{
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.input-fields{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.file-reader{
+  padding-left: 0px;
+}
+
+.error-class{
+  color: red;
+}
+
+.active{
+  background-color: #9e9e9e;
+}
+
+.info-list li{
+  font-size: 20px;
+  font-style: oblique;
+  font-family: -webkit-body;
+  margin: 5px;
+}
+
+.footer{
+  text: white;
+}

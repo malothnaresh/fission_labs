@@ -1,0 +1,20 @@
+<div class="view-inner-container">
+  <div class="row">
+    <div class="alert alert-danger" data-ng-if="invalidCsv">
+      <strong>Note!</strong> Csv file is either not uploaded or in invalid structure.
+    </div>
+    <div class="col-md-12">
+      <h4>This page is designed for assignment purpose.</h4>
+    </div>
+    <div class="col-md-12 input-fields">
+      <p>Upload CSV file to render it's contents as line graph using highcharts</p>
+      <input type="file" file-reader="fileContent" class="col-md-3 file-reader" />
+      <button type="btn" class="btn btn-primary" data-ng-click="readCsv()">Submit</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 input-fields">
+      <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    </div>
+  </div>
+</div>
